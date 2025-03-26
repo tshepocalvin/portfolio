@@ -1,0 +1,199 @@
+/* Box-sizing and Margin Reset */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Remove List Styles */
+ul, ol {
+    list-style: none;
+}
+
+/* Remove Default Link Styles */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Remove Default Button Styles */
+button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+/* Set Default Font and Smooth Scrolling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    scroll-behavior: smooth;
+    background: #1F242D;
+    color: white;
+}
+
+/* Reset Images */
+img {
+    max-width: 100%;
+    display: block;
+}
+
+ /* Mobile Styles */
+.menu-toggle {
+    display: none;
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+/* Global Styling */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #323946;
+    position: relative;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    transition: background 0.3s ease, color 0.3s ease;
+    border-radius: 5px;
+}
+
+.about-me, .contact-form{
+    background: #323946;
+}
+
+.hero{
+    padding: 15px;
+}
+
+.hero h1{
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.job-title{
+    font-size: 1.1rem;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #00EEFF;
+}
+
+.hero p{
+    text-align: center;
+}
+
+.download-cv{
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #00EEFF;
+    border-radius: 15px;
+    color: 323946;
+}
+
+/* About Me */
+.about-me{
+    padding: 15px;
+    text-align: center;
+}
+.edu-info-card{
+    padding: 15px;
+    margin: 5px;
+    background: #5a5a5a;
+    border-radius: 10px;
+}
+
+.blue-text{
+    color: #00EEFF;
+}
+
+.cert-button{
+    display: block;
+    margin: 5px auto 0px auto;
+    padding: 3px 7px;
+    background-color: #00EEFF;
+    width: 110px;
+    border-radius: 15px;
+    color: black;
+    text-align: center;
+}
+
+
+@media (max-width: 425px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        background: #333;
+        padding: 10px;
+        width: 150px;
+        text-align: center;
+        border-radius: 5px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+}
+
+
+@media (min-width: 769px) {
+
+    /* Navbar */
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 15%;
+        font-weight: 600;
+    }
+
+    .nav-links li {
+        display: inline;
+    }
+
+    .nav-links a:hover,
+        .nav-links a.active {
+            background: #bbbbbb;
+            color: #224c6d;
+    }
+
+    /* Hero Section */
+
+    .hero {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 15%;
+    }
+
+
+  }
+  
+
