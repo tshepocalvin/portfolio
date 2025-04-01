@@ -5,6 +5,7 @@ Welcome to my portfolio repository! This project showcases my skills, projects, 
 
 # 🚀 Live Demo
 https://tshepocalvin.github.io/portfolio
+<a href="https://tshepocalvin.github.io/portfolio" target="_blank">Live Demo</a>
 
 # 🛠️ Technologies Used
 
