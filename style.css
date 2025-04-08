@@ -1,3 +1,6 @@
+/* font import */
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap');
+
 /* Box-sizing and Margin Reset */
 *, *::before, *::after {
     box-sizing: border-box;
@@ -29,12 +32,15 @@ button {
 
 /* Set Default Font and Smooth Scrolling */
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Funnel Display", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
     line-height: 1.6;
     scroll-behavior: smooth;
     background: #1F242D;
     color: white;
 }
+
 
 /* Reset Images */
 img {
@@ -93,16 +99,16 @@ nav {
     margin-bottom: 25px;
 }
 
-.job-title{
+.hero p{
+    text-align: left;
+}
+
+.hero .job-title{
     font-size: 1.1rem;
     text-align: center;
     font-weight: 500;
     margin-bottom: 20px;
     color: #00EEFF;
-}
-
-.hero p{
-    text-align: left;
 }
 
 .download-cv{
@@ -455,7 +461,7 @@ footer{
         flex-wrap: wrap;
     }
     .project-card{
-        width: 30%;
+        width: 33.33%;
     }
 
 
