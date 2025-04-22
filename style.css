@@ -349,11 +349,11 @@ nav {
     text-decoration: none;
     color: white;
     gap: 10px; /* Space between icon and text */
-    transition: transform 0.3s ease;
+    transition: transform 1s ease;
 }
 
 .social-link:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 footer{
