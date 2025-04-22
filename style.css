@@ -121,6 +121,12 @@ nav {
     border-radius: 15px;
     width: fit-content;
     color: #323946;
+
+    transition: transform 0.3s ease;
+}
+
+.download-cv:hover{
+    transform: scale(1.1);
 }
 
 /* About Me */
@@ -148,6 +154,12 @@ nav {
     border-radius: 15px;
     color: black;
     text-align: center;
+
+    transition: transform 0.3s ease;
+}
+
+.cert-button:hover{
+    transform: scale(1.1);
 }
 
 /* MY SKills Section */
@@ -240,6 +252,14 @@ nav {
     color: 323946;
 }
 
+.project-link{
+    transition: transform 0.3s ease;
+}
+
+.project-link:hover{
+    transform: scale(1.1);
+}
+
 /* Contact */
 
 .contact-form{
@@ -329,6 +349,11 @@ nav {
     text-decoration: none;
     color: white;
     gap: 10px; /* Space between icon and text */
+    transition: transform 0.3s ease;
+}
+
+.social-link:hover{
+    transform: scale(1.1);
 }
 
 footer{
