@@ -87,8 +87,14 @@ nav {
     background: #323946;
 }
 
+/* Hero */
+
 .hero{
     padding: 15px;
+}
+
+.hero-left{
+    margin-right: 15px;
 }
 
 .hero h1{
@@ -101,6 +107,14 @@ nav {
 
 .hero p{
     text-align: left;
+}
+
+.hero .hero-image{
+    border-radius: 10px;
+}
+
+.hero .self-description{
+    text-align: center;
 }
 
 .hero .job-title{
@@ -190,7 +204,7 @@ nav {
 
 .progress-bar {
     width: 100%;
-    max-width: 400px;
+    max-width: 200px;
     background-color: #e0e0e0;
     border-radius: 10px;
     overflow: hidden;
@@ -232,6 +246,9 @@ nav {
     background: #5a5a5a;
     border-radius: 10px;
     text-align: center;
+
+    display: flex;
+    flex-direction: column;
 }
 
 .project-card img{
@@ -471,7 +488,7 @@ footer{
     }
     .skill{
         flex-basis: calc(50% - 10px); /* Makes each item take up 50% of the container, minus half the gap */
-
+        align-items: flex-start;
     }
 
 
